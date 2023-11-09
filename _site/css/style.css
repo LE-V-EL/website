@@ -1,0 +1,262 @@
+  
+* {
+	box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+  font-size: 1.6rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,a {
+	color: #34495e;
+}
+
+a {
+  padding: 30px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.header__navbar {
+  padding: 0 0;
+  border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+  position: sticky;
+  top: 0;
+}
+
+.navbar__links a:hover {
+  background-color: #34495e;
+  color:#ddd;
+  border-radius: 25px;
+}
+
+.navbar {
+  max-width: 1366px; 
+  margin: 0 auto;
+  padding: 0 3rem 0;
+  &__logo {
+    margin: 0;
+  }
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+@media (min-width: 769px) {
+	.navbar,
+	.navbar__links {
+		display: flex;
+	}
+	.navbar {
+		flex-direction: column;
+		align-items: center;
+    	.navbar {
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1366px;
+    }
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.navbar {
+		flex-direction: row;
+		justify-content: space-between;        
+	}
+}
+
+  
+.info {
+  font-family: "Poppins";
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.info a {
+  padding: 0;
+  margin: 0;
+}
+  .tab1 {
+    float: left;
+    border: none;
+    background-color: white;
+    width: 33.33%;
+    height: 50px;
+  }
+  
+  .tab1 button {
+    font-family: 'Poppins';
+    font-weight: 550;
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 10px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 22px;
+  }
+  
+  .info1 {
+    font-size: 20px;
+    font-family: "Poppins";
+  }
+
+  .info1 a {
+    color: rgb(79, 134, 244);
+    text-decoration: none; /* remove underline */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .info2 {
+    font-size: 20px;
+    font-family: "Poppins";
+  }
+  
+  .info3 {
+    margin-left: 50px;
+    font-family: "Poppins";
+  }
+
+  .info3 a {
+    color: rgb(79, 134, 244);
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+  }
+
+ .info3 .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 20px 0 0 0;
+}
+
+.info3 ul {
+    list-style-type: disc; /* Use bullets as list-style */
+    padding-left: 20px; /* Adjust spacing as needed */
+}
+
+.info3 img {
+    width: 60%;
+    height: auto;
+    margin-left: 100px;
+    padding-bottom: 20px;
+}
+
+  
+.info3 .points {
+  font-size: 20px;
+  margin-left: 100px;
+  font-family: "Poppins";
+}
+
+.info3 .points li {
+  padding: 20px 0 20px 0;
+}
+  
+.tabcontent {
+    margin: 0 auto; /* Center align horizontally */
+    padding: 20px 12px;
+    border: none;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+    display: none;
+}
+
+  
+  .tab1 button:hover {
+    background-color: #ddd;
+  }
+  
+  header {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .selection {
+    display: flex;
+    align-items: center;
+  }
+  
+  p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  table {
+    width: 50%;
+    font-size: 16px;
+    border-collapse: collapse;
+    align-items: center;
+    /* Center the table horizontally */
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 100px;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  select {
+    font-size: 30px;
+    /* Border width, style, and color */
+    border: 4px solid black;
+  }
+  
+  thead {
+    background-color: #eee;
+  }
+  
+  /* Style of table */
+  tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+
+  .highlighted {
+    background-color: #a9a9a9;
+  }
+
+  /* Style of the word */
+  .hyperlink {
+    color: rgb(79, 134, 244);
+    text-decoration: none; /* remove underline */
+  }

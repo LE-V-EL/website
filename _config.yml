@@ -1,0 +1,28 @@
+name: LE-V-EL
+
+description: >
+  Provide standardized visualization benchmark datasets
+  Rankings of computational methods for visualization understanding.
+
+lang: en-US
+
+# permalink: /:title/
+# baseurl: "/LEVEL"
+# url: https://shivangraikar.github.io/LEVEL/
+# url: http://localhost
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+
+# collections:
+#   dataset:
+#     permalink: /:collection/:path/
+#     output: true
+#   submit:
+#     permalink: /:collection/:path/
+#     output: true
+#   link:
+#     permalink: /:collection/:path/
+#     output: true
